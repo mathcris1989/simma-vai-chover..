@@ -373,7 +373,7 @@ with tab_sat:
 
 with tab_metodo:
     st.subheader("Sobre o protótipo")
-    st.markdown("**Vai chover?** é um protótipo de visualização de previsão meteorológica associado à identidade institucional da SIMMA — Sistema Integrado de Monitoramento Meteorológico e Ambiental.")
+    st.markdown("**Vai chover?** é um protótipo de visualização de previsão meteorológica associado à identidade institucional da SIMMA — Sistema Integrado de Monitoramento Meteorológico e Ambiental. criado por Matheus Moreira - Direitos Reservados")
     st.markdown("**Fonte principal:** Open-Meteo Forecast API. A previsão é referente às coordenadas aproximadas dos centros municipais e não deve ser apresentada como observação medida em estação local.")
     st.markdown("**Direção do vento:** a API fornece a direção meteorológica de origem (de onde o vento vem). A seta é calculada no sentido para onde o vento sopra, acrescentando 180° à direção de origem. O modelo estima a condição; não é uma medição em tempo real de estação.")
     st.markdown("**Alertas:** os indicadores são regras demonstrativas aplicadas à previsão. Não são avisos oficiais e precisam de avaliação técnica e validação antes de qualquer uso operacional.")
